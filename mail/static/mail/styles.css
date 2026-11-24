@@ -1,0 +1,85 @@
+textarea {
+    min-height: 400px;
+}
+
+/* Single email */
+
+#single-email-content {
+  padding-bottom: 40px;
+  border: 1px solid #007bff;
+}
+#single-email-content .row p {
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+#single-email-content .email-subject-section #archive-reply-button {
+  padding-top: 30px;
+}
+#single-email-content .email-subject-section #archive-reply-button button {
+  padding: 0.25rem 0.5rem;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+#single-email-content .email-subject-section #archive-reply-button button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+#single-email-content #email-subject-subsection p {
+  font-size: 60px;
+}
+#single-email-content .row.email-sender-section p:before {
+  content: "From: ";
+}
+#single-email-content .email-recipients-section p:before {
+  content: "To: ";
+}
+#single-email-content .email-body-section {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  white-space: pre-wrap;
+}
+
+/* Comment goes here */
+
+#emails-view #titled-first-row {
+  border-top: 1px solid #007bff;
+  cursor: default;
+}
+#emails-view .email-line-box {
+  border: 1px solid #007bff;
+  border-top: 0;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+#emails-view .read {
+  background-color: #e9ecef;
+}
+
+/* Comment goes here */
+
+#single-email-back-section {
+  margin-top: 0.5rem;
+}
+#single-email-back-section .row #back-button {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #007bff;
+  border-radius: 0.2rem;
+  color: #007bff;
+  text-align: center; 
+}
+#single-email-back-section .row #back-button:hover {
+  background-color: #007bff;
+  color: #ffffff; 
+}
+#single-email-back-section p:before {
+  content: "Back to ";
+}
+
+
+  
